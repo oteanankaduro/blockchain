@@ -14,7 +14,7 @@ public class Block {
     private String previousHash;
     private String transaction;
 
-    public Block(int id, String transactions, String previousHash) {
+    public Block(int id, String transaction, String previousHash) {
 
         /*
         * the contents of the block are placed here.
