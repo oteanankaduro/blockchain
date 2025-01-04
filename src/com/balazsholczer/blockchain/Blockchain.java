@@ -11,16 +11,7 @@ public class Blockchain {
 
     private List<Block> blockChain;
 
-    /*
-    the method below did not come with a "void" in the method declaration
-    it was added to fix the error that claimed the method declared was invalid
-    below is how it was presented at the source
-
-    public BlockChain() {
-        this.blockChain = new ArrayList<>();
-    }
-     */
-    public void BlockChain() {
+    public Blockchain() {
         this.blockChain = new ArrayList<>();
     }
 
